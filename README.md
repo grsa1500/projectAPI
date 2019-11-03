@@ -3,9 +3,9 @@
 I denna uppgift skapades ett REST API som använder GET, POST, PUT och DELETE. I detta API ligger kurser lästa av mig, jobb jag haft, samt projekt jag gjort. 
 
 Till APIt kan tre olika anrop göras
-url/courses
-url/projects
-url/jobs
+* url/courses
+* url/projects
+* url/jobs
 
 I filen database.php måste egna databasiställningar fyllas i.
 ## Kod för att skapa de nödvändiga databastabellerna
