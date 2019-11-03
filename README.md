@@ -1,5 +1,4 @@
-# Moment 5.1 REST-API
+# Projekt REST-API
 
-I denna uppgift skapades ett REST API som använder GET, POST, PUT och DELETE. I detta API ligger kurser lästa av mig under min utbildning. 
+I denna uppgift skapades ett REST API som använder GET, POST, PUT och DELETE. I detta API ligger kurser lästa av mig, jobb jag haft, samt projekt jag gjort. 
 
-Uppgiften är objektorienterad med klassen Courses där metoder som hanterar kopplingen till databasen, samt lägga till/ta bort och ändra kurserna finns.

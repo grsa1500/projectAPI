@@ -28,14 +28,14 @@ class Course {
     }
 
     //Adding courses
-    function addCourse($code, $name, $progression, $syllabus) {
-        $sql = "INSERT INTO courses (code, name, progression, syllabus) VALUES ('$code', '$name', '$progression', '$syllabus');";
+    function addCourse($name, $school, $points, $program, $startyear, $endyear) {
+        $sql = "INSERT INTO courses (name, school, points, program,  startyear,  endyear) VALUES ('$name', '$school', '$points', '$program',  '$startyear',  '$endyear');";
         return $this->db->query($sql);
     }
 
     //Update course
-    function updateCourse($code, $name, $progression, $syllabus, $id) {
-        $sql = "UPDATE courses SET code = '$code',  name = '$name', progression = '$progression',  syllabus = '$syllabus' WHERE id = '$id';";
+    function updateCourse($name, $school, $points, $program, $startyear, $endyear, $id) {
+        $sql = "UPDATE courses SET name = '$name',  school = '$school', points = '$points',  startyear = '$startyear',  endyear = '$endyear' WHERE id = '$id';";
         $result = $this->db->query($sql);
         return $result;  
     }
